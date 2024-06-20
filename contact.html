@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- <style>
+         /* Custom styles */
+         .scrollable {
+            height: 500px; /* Adjust as needed */
+            overflow-y: auto;
+        }
+    </style> -->
+    <title>Email Page</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="m-1 font-mono  rounded border border-black mb-2 shadow-sm shadow-yellow-600 grid grid-cols-7 gap-4 font-bold text-xl ">
+        
+        <a href="/templates/index.html" class="col-span-5">
+            <div class="py-4"> 
+                <!-- <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo"> -->
+                <img src="/static/logo.jpg" alt="" class="h-8 ml-2 inline"> 
+                <div class="inline py-1 text-2xl">HitScan</div>
+            </div>
+        </a>
+
+
+        <a href="/templates/index.html">
+            <div class="hover:bg-indigo-200 py-4 text-center rounded-md my-1"><i class="fa-solid fa-boxes-stacked mr-2"></i>Dashboard</div>
+        </a>
+
+        <a href="/templates/contact.html">
+            <div class="hover:bg-indigo-200 py-4 text-center rounded-md my-1 mr-2"><i class="fa-solid fa-phone mr-2"></i>Contact</div>
+        </a>
+
+    </div>
+
+    <!-- Match Form -->
+    <section class="border border-black m-1 rounded px-4 py-2 mb-4">
+
+        <div class="container mx-auto p-6">
+            <h1 class="text-3xl font-bold mb-6">About Us</h1>
+            
+            <div class="bg-white shadow-md rounded px-8 py-6 mb-6">
+                <h2 class="text-2xl font-bold mb-4"><i class="fa-solid fa-bullseye mr-2 text-2xl"></i>Our Mission</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Our mission is to leverage IoT technology to enhance the accuracy and efficiency of volleyball boundary detection. We strive to provide real-time classification of ball interactions and human movements on the court, enabling coaches, players, and officials to make data-driven decisions that elevate performance and gameplay experience. 
+                </p>
+            </div>
+
+            <div class="bg-white shadow-md rounded px-8 py-6 mb-6">
+                <h2 class="text-2xl font-bold mb-4"><i class="fa-solid fa-eye mr-2 text-2xl"></i>Our Vision</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Our vision is to become a leading innovator in sports analytics through our IoT-based solution. We envision a future where our technology not only transforms volleyball training and competitions but also sets new standards for precision and reliability in sports event management. By continuously advancing our capabilities, we aim to empower stakeholders across the volleyball community with actionable insights that drive excellence and competitiveness.
+                </p>
+            </div>
+            
+            <div class="bg-white shadow-md rounded px-8 py-6 mb-6">
+                <h2 class="text-2xl font-bold mb-4">Our Team</h2>
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-bold mb-2">John Doe</h3>
+                            <p class="text-gray-700">Co-Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-bold mb-2">Jane Smith</h3>
+                            <p class="text-gray-700">CTO</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-bold mb-2">Alice Johnson</h3>
+                            <p class="text-gray-700">Lead Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white shadow-md rounded px-8 py-6">
+                <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+                <p class="text-gray-700"><span class="font-bold">Email:</span> info@example.com</p>
+                <p class="text-gray-700"><span class="font-bold">Phone:</span> +123 456 7890</p>
+                <p class="text-gray-700"><span class="font-bold">Address:</span> 123 Street, City, Country</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</body>
+</html>
